@@ -15,7 +15,7 @@ const mark = (element) => {
 };
 
 const addTask = () => {
-  let li = document.createElement('li');
+  const li = document.createElement('li');
   query('#lista-tarefas').appendChild(li);
   selecTask(li);
   mark(li);
